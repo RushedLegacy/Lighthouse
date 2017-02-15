@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.nav{
+	font-family: 'Bahiana', cursive;
+	background-color: black;
+	color:white;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.nav:after{
+	display:block;
+	content:'';
+	clear:both;
+}
+ul{
+	float:right;
+	margin-right: 35px;
+}
+li{
+	display:inline-block;
+	padding: 10px;
+
+}
+li:hover{
+	color:black;
+	background-color: white;
+	transition:0.4s;
+	cursor: pointer;
+}
+a{
+	text-decoration:none;
+	color: white;
+}
+a:hover{
+	color:black;
+	background-color: 
+}
+img{
+		
+}
