@@ -1,2 +1,2 @@
-# Lighthouse
+# The Lighthouse Initiative
 Aptitude Website
