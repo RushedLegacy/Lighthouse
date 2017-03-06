@@ -1,28 +1,71 @@
-.navbar{
-	background-color: #0A101E;
-}
-.container-fluid {
-
-border-bottom: 1px solid white;
-}
-.navbar-inverse .navbar-brand{
+*{
+	margin:  0;
+	padding: 0;
 }
 
-.navbar-nav li{
+/*---------HEADER----------*/ 
 
-}
-.navbar-header img{
+.container-fluid li{
+font-weight: bold;
+font-size: 15px;
+color:  grey;
+letter-spacing: 1px;
+padding-right: 5px;
+} 
+
+.navbar-brand img{
+	border-radius: 200px;
 	position: absolute;
-	top: 0;
-	left:0;
-	border: 1px solid #0A101E;
-	border-radius: 100px;
 }
-.navbar-header img:hover{
-	background-image: url("/home/lenovo-4/Desktop/icon1.gif");
-	height: 50px;
-	width: 50px;
+
+.navbar-brand img:hover{
 	transition: 0.3s;
-	position: absolute;
 	opacity: 0;
+} 
+
+.navbar-default .navbar-nav li a:hover{
+	transition:0.3s;
+	color: white;
+}
+
+img{
+ 	 top: 0px;
+ 	 left: 0px;
+ }
+
+.navbar-default{
+	background:  transparent;
+	border-color: #ffffff; 
+	border:0;
+	margin:0;
+	position: absolute;
+	width:100%;
+}
+.navbar-default .navbar-collapse{
+	border-color:transparent;
+}
+
+
+/*--------ABOUT US----------*/
+.Hisaab{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	margin-top: 40px;
+	background-color: #dedbcc;
+	border-radius: 20px;
+	padding: 50px;
+
+}
+
+/*--------Main------------*/
+
+.row{
+	position: relative;
+	top: 20px;
+	margin: auto;
+}
+
+.col-md-3{
+	text-align: center;
 }
