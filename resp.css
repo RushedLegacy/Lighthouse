@@ -25,7 +25,7 @@ padding-right: 5px;
 
 .navbar-default .navbar-nav li a:hover{
 	transition:0.3s;
-	color: white;
+	color: #9e988a;
 }
 
 img{
@@ -47,25 +47,51 @@ img{
 
 
 /*--------ABOUT US----------*/
+#meh{
+	border-bottom: 1px solid grey;
+}
+
 .Hisaab{
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
-	margin-top: 40px;
-	background-color: #dedbcc;
-	border-radius: 20px;
-	padding: 50px;
+	
 
+	background-color: white;
+	
+	padding: 70px;
+	
 }
 
+.navbar-default .navbar-nav  li a{
+	color:white;
+}
+
+.quote .container-fluid{
+	background-color: white;
+}
 /*--------Main------------*/
 
-.row{
-	position: relative;
+
+
+
+
+.links .container .row{
 	top: 20px;
-	margin: auto;
+	background-color: white;
+	border-bottom: 1px solid grey;
+	padding-bottom: 70px;
+}
+.col-md-3{
+	border: 1px dashed black;
+height: 300px;
+text-align: center;
 }
 
-.col-md-3{
-	text-align: center;
+
+/*---------Contact------------*/
+
+
+.dark-bg{
+	padding:20px 0px;
 }
