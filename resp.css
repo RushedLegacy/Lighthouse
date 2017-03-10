@@ -1,0 +1,97 @@
+*{
+	margin:  0;
+	padding: 0;
+}
+
+/*---------HEADER----------*/ 
+
+.container-fluid li{
+font-weight: bold;
+font-size: 15px;
+color:  grey;
+letter-spacing: 1px;
+padding-right: 5px;
+} 
+
+.navbar-brand img{
+	border-radius: 200px;
+	position: absolute;
+}
+
+.navbar-brand img:hover{
+	transition: 0.3s;
+	opacity: 0;
+} 
+
+.navbar-default .navbar-nav li a:hover{
+	transition:0.3s;
+	color: #9e988a;
+}
+
+img{
+ 	 top: 0px;
+ 	 left: 0px;
+ }
+
+.navbar-default{
+	background:  transparent;
+	border-color: #ffffff; 
+	border:0;
+	margin:0;
+	position: absolute;
+	width:100%;
+}
+.navbar-default .navbar-collapse{
+	border-color:transparent;
+}
+
+
+/*--------ABOUT US----------*/
+#meh{
+	border-bottom: 1px solid grey;
+}
+
+.Hisaab{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	
+
+	background-color: white;
+	
+	padding: 70px;
+	
+}
+
+.navbar-default .navbar-nav  li a{
+	color:white;
+}
+
+.quote .container-fluid{
+	background-color: white;
+}
+/*--------Main------------*/
+
+
+
+
+
+.links .container .row{
+	top: 20px;
+	background-color: white;
+	border-bottom: 1px solid grey;
+	padding-bottom: 70px;
+}
+.col-md-3{
+	border: 1px dashed black;
+height: 300px;
+text-align: center;
+}
+
+
+/*---------Contact------------*/
+
+
+.dark-bg{
+	padding:20px 0px;
+}
